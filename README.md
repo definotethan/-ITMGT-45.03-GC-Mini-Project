@@ -97,3 +97,10 @@ curl http://127.0.0.1:5000/api/order/status/ORD123
 # Order status (error, non-existing order)
 curl http://127.0.0.1:5000/api/order/status/NOTREAL
 ```
+
+## Limitations
+#Data resets with every server restart (no database)
+#Only two sample products available
+#No authentication, so all endpoints are public
+#Input checks are basic (e.g., URLs, text length)
+#Intended for demonstration, not production use​
