@@ -1,5 +1,4 @@
 API Testing Artifacts
-This document demonstrates the API's correct and error behavior with example commands and screenshots.
 
 Happy Path
 Request:
@@ -19,4 +18,5 @@ curl http://127.0.0.1:5000/api/order/status/NOTREAL
 Expected Response:
 {
   "message": "Order not found"
+
 }
